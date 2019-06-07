@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Nunito', sans-serif;*/  /*dette er istedefor avenir next*/
+}
+header {
+
+
+
+}
+
+.bakgrunsbilde {
+
+    background-image: url("bilder/toppbilde.jpg");
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    min-height: 800px;
+    max-width: 100%;
+    
+}
+
+h2 {
+
+    font-family: 'Vidaloka', serif; /*dette er istedefor didot*/
+}
