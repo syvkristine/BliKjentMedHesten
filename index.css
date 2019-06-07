@@ -2,27 +2,120 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 100%;
     /*font-family: 'Nunito', sans-serif;*/  /*dette er istedefor avenir next*/
 }
+
+
+
+/*header*/
+
 header {
-
-
-
-}
-
-.bakgrunsbilde {
 
     background-image: url("bilder/toppbilde.jpg");
     background-position: center;
     background-size: cover;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 800px;
     max-width: 100%;
+
+
+    display: grid;
+    grid-template-columns: 1fr 50px;
     
 }
 
-h2 {
+.intro {
 
-    font-family: 'Vidaloka', serif; /*dette er istedefor didot*/
+    margin-left: 2.5rem;
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-rows: 1fr 200px;
+
+
+}
+
+.intro > h1 {
+
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+.introtext > h2 {
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0 0 -26px 0;
+
+
+}
+
+.introtext > p {
+
+    margin: 0;
+    font-size: 6rem;
+
+}
+/*
+.nav > a {
+
+    display: block;
+    padding: 1rem 0 1rem 0;
+    text-decoration: none;
+    color: #5A403F;
+    font-size: 1rem;
+    font-family: 'Vidaloka', serif;
+    
+    
+} 
+
+.nav {
+
+    align-self: center;
+   
+}*/
+
+.fixed-position {
+
+    position: fixed;
+    padding-top: 10rem;
+
+}
+
+.fixed-position > a {
+
+    display: block;
+    padding: 1rem 0 1rem 0;
+    text-decoration: none;
+    color: #5A403F;
+    font-size: 1rem;
+    font-family: 'Vidaloka', serif;
+ 
+}
+
+
+
+
+/*section 1*/
+
+.hestens-historie {
+
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+h3 {
+
+  /*  font-family: 'Vidaloka', serif; /*dette er istedefor didot*/
 }
