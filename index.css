@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    /*font-family: 'Nunito', sans-serif;*/  /*dette er istedefor avenir next*/
+    /*font-family: 'Nunito', sans-serif;  /*dette er istedefor avenir next*/
+    /*color: #5A403F;*/
 }
 
 
@@ -81,7 +82,7 @@ header {
 .fixed-position {
 
     position: fixed;
-    padding-top: 10rem;
+    padding-top: 13rem;
 
 }
 
@@ -96,26 +97,28 @@ header {
  
 }
 
+main{
 
-
+    font-family: 'Nunito', sans-serif;  /*dette er istedefor avenir next*/
+    color: #5A403F;
+}
 
 /*section 1*/
-
 .hestens-historie {
 
     height: 1000px;
 }
 
 
+.wrapper1 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 90px minmax(200, auto);
+    
 
 
 
-
-
-
-
-
-h3 {
-
-  /*  font-family: 'Vidaloka', serif; /*dette er istedefor didot*/
 }
+
+
