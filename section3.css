@@ -1,0 +1,271 @@
+ 
+
+/*section 3*/
+#blikjentmedhesten {
+
+    padding-top: 4rem;
+    
+
+}
+
+.number {
+
+    padding-right: 4rem; 
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.number > figure {
+
+    font-size: 4rem;
+    font-family: 'Vidaloka', serif;
+    border-bottom: 2.5px solid #5A403F;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 80px;
+    text-align: center;
+    
+
+}
+
+.number > div {
+
+    height: 10px;
+}
+
+
+.section3 {
+
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    grid-gap: 1rem; 
+    background-color: #BDB4A5;
+
+}
+
+
+.section3 > .text {
+
+    position: absolute;
+    width: 550px;
+    left: 4rem;
+    z-index: 3;
+
+
+
+}
+
+.text > h3 {
+
+    font-family: 'Vidaloka', serif;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+}
+
+.text > p {
+
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.section3 > figure {
+
+    position: absolute;
+    left: 21rem;
+    padding-top: 32rem;
+    font-size: 6rem;
+    font-family: 'Vidaloka', serif;
+    font-weight: 100;
+    color: #BDB4A5;
+}
+
+
+
+.plasseringavbilde{
+
+    padding-top: 10rem;
+}
+
+
+.bilde {
+
+
+    background-image: url("bilder/hestensHistorie.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    left: 500px;
+
+    overflow-x: visible;
+    overflow: visible;
+  
+
+}
+
+/*resposiv til section 1*/
+@media only screen and (max-width: 1440px) {
+
+    .bilde {
+    
+        width: 940px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    .bilde {
+    
+        left: 300px;
+        width: 893px;
+
+    }
+
+    .section3 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+    .introtext > p {
+
+        text-shadow: 3px 3px 3px #00000036;
+    
+    }
+
+    .intro > h1 {
+
+        text-shadow: 3px 3px 3px #00000036;
+    }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 850px) {
+
+
+
+    .bilde {
+    
+        left: 200px;
+        width: 648px;
+        /*width: 582px;*/
+    }
+
+    .section3 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+    .text > h3 {
+
+        font-size: 3rem;
+
+    }
+
+    .text > p {
+        font-size: 1rem;
+  
+    }
+
+    .section3 > .text {
+ 
+        width: 400px;
+      
+    }
+
+
+    header {
+
+        min-height: 600px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 700px) {
+
+
+
+    .bilde {
+    
+        left: 100px;
+        width: 582px;
+        /*width: 482px;*/
+    }
+
+    .section3 > figure {
+
+        left: 5rem;
+       
+        
+    }
+
+    .section3 > .text {
+ 
+        width: 380px;
+      
+    }
+
+    .text > h3 {
+
+        font-size: 2.8rem;
+
+    }
+
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+    .bilde {
+    
+        left: 100px;
+        width: 400px;
+    }
+
+    .section3 > figure {
+
+        left: -3rem;
+        padding-top: 33rem;
+        font-size: 5rem;
+       
+        
+    }
+
+    .section3 > .text {
+ 
+        width: 350px;
+      
+    }
+
+    .section3 {
+
+        grid-template-columns: 500px 1fr;
+       
+    }
+
+  }
