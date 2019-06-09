@@ -214,6 +214,12 @@ main {
     
     }
 
+    .introtext > h1 {
+
+        text-shadow: 3px 3px 3px #00000036;
+    
+    }
+
 
   }
 
@@ -250,6 +256,12 @@ main {
  
         width: 400px;
       
+    }
+
+
+    header {
+
+        min-height: 600px;
     }
 
 
@@ -313,11 +325,6 @@ main {
     }
 
   }
-
-
-
-
-
 
 
 
