@@ -22,6 +22,7 @@ header {
     min-width: 100%;
     display: grid;
     grid-template-columns: 1fr 50px;
+
     
 }
 
@@ -186,11 +187,26 @@ main {
     width: 1000px;
     position: relative;
     left: 500px;
+
+    overflow-x: visible;
+    overflow: visible;
   
 
 }
 
 /*resposiv til section 1*/
+@media only screen and (max-width: 1440px) {
+
+    .bilde {
+    
+        width: 940px;
+    }
+
+
+}
+
+
+
 
 @media only screen and (max-width: 1200px) {
 
@@ -199,6 +215,8 @@ main {
     .bilde {
     
         left: 300px;
+        width: 893px;
+
     }
 
     .section > figure {
@@ -214,10 +232,9 @@ main {
     
     }
 
-    .introtext > h1 {
+    .intro > h1 {
 
         text-shadow: 3px 3px 3px #00000036;
-    
     }
 
 
@@ -232,6 +249,8 @@ main {
     .bilde {
     
         left: 200px;
+        width: 648px;
+        /*width: 582px;*/
     }
 
     .section > figure {
@@ -274,6 +293,8 @@ main {
     .bilde {
     
         left: 100px;
+        width: 582px;
+        /*width: 482px;*/
     }
 
     .section > figure {
@@ -307,6 +328,7 @@ main {
     .bilde {
     
         left: 100px;
+        width: 400px;
     }
 
     .section > figure {
@@ -322,6 +344,12 @@ main {
  
         width: 350px;
       
+    }
+
+    .section {
+
+        grid-template-columns: 500px 1fr;
+       
     }
 
   }
