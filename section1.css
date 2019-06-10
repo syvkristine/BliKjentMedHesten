@@ -275,6 +275,12 @@
         font-size: 2.4rem;
     }
 
+    .fixed-position {
+
+        position: fixed;
+        padding-top: 3rem;
+    }
+
 
 
   }
@@ -283,11 +289,7 @@
 
   @media only screen and (max-width: 450px) {
 
-    .introtext > h2 {
-    
-        font-size: 2.8rem;
-       
-    }
+ 
 
     .introtext > p {
     
@@ -303,12 +305,11 @@
 
     .section1 > .text {
 
-        width: 310px;
+        width: 300px;
         left: 1rem;
     }
 
     .text > p {
-
 
         font-weight: 300;
         line-height: none;
