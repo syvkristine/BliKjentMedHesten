@@ -40,7 +40,7 @@
     display: grid;
     grid-template-columns: 550px 1fr;
     grid-gap: 1rem; 
-    background-color: #BDB4A5;
+    /*background-color: #BDB4A5;*/
 
 }
 
@@ -48,7 +48,7 @@
 .section3 > .text {
 
     position: absolute;
-    width: 550px;
+    width: 570px;
     left: 4rem;
     z-index: 3;
 
@@ -78,7 +78,7 @@
 
     position: absolute;
     left: 21rem;
-    padding-top: 32rem;
+    padding-top: 34rem;
     font-size: 6rem;
     font-family: 'Vidaloka', serif;
     font-weight: 100;
@@ -89,14 +89,14 @@
 
 .plasseringavbilde{
 
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 
 
-.bilde {
+.bilde3 {
 
 
-    background-image: url("bilder/hestensHistorie.jpg");
+    background-image: url("bilder/blikjentmedhesten.jpg");
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -113,7 +113,7 @@
 /*resposiv til section 1*/
 @media only screen and (max-width: 1440px) {
 
-    .bilde {
+    .bilde3 {
     
         width: 940px;
     }
@@ -128,7 +128,7 @@
 
 
 
-    .bilde {
+    .bilde3 {
     
         left: 300px;
         width: 893px;
@@ -142,16 +142,7 @@
         
     }
 
-    .introtext > p {
-
-        text-shadow: 3px 3px 3px #00000036;
-    
-    }
-
-    .intro > h1 {
-
-        text-shadow: 3px 3px 3px #00000036;
-    }
+  
 
 
   }
@@ -162,7 +153,7 @@
 
 
 
-    .bilde {
+    .bilde3 {
     
         left: 200px;
         width: 648px;
@@ -206,7 +197,7 @@
 
 
 
-    .bilde {
+    .bilde3 {
     
         left: 100px;
         width: 582px;
@@ -241,7 +232,7 @@
 
 
 
-    .bilde {
+    .bilde3 {
     
         left: 100px;
         width: 400px;

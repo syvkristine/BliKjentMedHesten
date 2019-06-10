@@ -1,0 +1,364 @@
+ 
+
+/*section 2*/
+#hestenspovirkning {
+
+    padding-top: 4rem;
+    
+
+}
+
+.number2 {
+
+    padding-right: 4rem; 
+    display: flex;
+    justify-content: flex-start;;
+    
+}
+
+.number2 > figure {
+
+    font-size: 4rem;
+    font-family: 'Vidaloka', serif;
+    border-bottom: 2.5px solid #5A403F;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 80px;
+    text-align: center;
+    
+
+}
+
+.number > div {
+
+    height: 10px;
+}
+
+
+.section2 {
+
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    grid-gap: 1rem; 
+    /*background-color: #BDB4A5;*/
+
+}
+
+
+.section2 > .text {
+
+    position: absolute;
+    width: 570px;
+    left: 49rem;
+    z-index: 3;
+
+
+
+}
+
+.text > h3 {
+
+    font-family: 'Vidaloka', serif;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+}
+
+.text > p {
+
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.section2 > figure {
+
+    position: absolute;
+    left: 40rem;
+    padding-top: 34rem;
+    font-size: 6rem;
+    font-family: 'Vidaloka', serif;
+    font-weight: 100;
+    color: #BDB4A5;
+}
+
+
+
+.plasseringavbilde{
+
+    padding-top: 12rem;
+}
+
+
+.bilde2 {
+
+
+    background-image: url("bilder/hestenspovirkning.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+
+    overflow-x: visible;
+    overflow: visible;
+  
+
+}
+
+/*resposiv til section 1*/
+@media only screen and (max-width: 1400px) {
+
+    .bilde2 {
+    
+        width: 940px;
+    } 
+
+    .section2 > .text {
+  
+        left: 43rem;
+  
+    }
+
+   
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+    
+        .section2 > .text {
+      
+            left: 40rem;
+      
+        }
+    
+    
+    }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    .section2 > .text {
+  
+        left: 35rem;
+  
+    }
+
+
+    .bilde2 {
+    
+   
+        width: 893px;
+        left: -173px;
+
+    }
+
+    .section2 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 1150px) {
+
+    
+        .section2 > .text {
+      
+            left: 29rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 1050px) {
+
+    
+        .section2 > .text {
+      
+            left: 25rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+    
+        .section2 > .text {
+      
+            left: 20rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 950px) {
+
+
+        .text2 > h3 {
+
+            font-size: 3rem;
+            text-align: right;
+    
+        }
+    
+        .text2 > p {
+            font-size: 1rem;
+            text-align: right;
+      
+        }
+
+        .section2 > .text {
+      
+            left: 18rem;
+      
+        }
+
+
+    }
+  
+
+    @media only screen and (max-width: 900px) {
+
+        .section2 > .text {
+      
+            left: 15rem;
+      
+        }
+    }
+
+
+  @media only screen and (max-width: 850px) {
+
+
+
+    .bilde2 {
+    
+        width: 648px;
+        /*width: 582px;*/
+    }
+
+    .section2 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+
+    .section2 > .text {
+ 
+        width: 400px;
+      
+    }
+
+
+    header {
+
+        min-height: 600px;
+    }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .section2 > .text {
+      
+        left: 20rem;
+  
+    }
+
+
+  }
+
+  @media only screen and (max-width: 700px) {
+
+
+
+    .bilde {
+    
+        left: 100px;
+        width: 582px;
+        /*width: 482px;*/
+    }
+
+    .section2 > figure {
+
+        left: 5rem;
+       
+        
+    }
+
+    .section2 > .text {
+ 
+        width: 380px;
+      
+    }
+
+    .text > h3 {
+
+        font-size: 2.8rem;
+
+    }
+
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+    .bilde {
+    
+        left: 100px;
+        width: 400px;
+    }
+
+    .section2 > figure {
+
+        left: -3rem;
+        padding-top: 33rem;
+        font-size: 5rem;
+       
+        
+    }
+
+    .section2 > .text {
+ 
+        width: 350px;
+      
+    }
+
+    .section2 {
+
+        grid-template-columns: 500px 1fr;
+       
+    }
+
+  }
