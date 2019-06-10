@@ -141,7 +141,16 @@
         
     }
 
-   
+    .introtext > p {
+
+        text-shadow: 3px 3px 3px #00000036;
+
+    }
+
+    .intro > h1 {
+
+        text-shadow: 3px 3px 3px #00000036;
+    }
 
 
   }
@@ -239,9 +248,9 @@
 
     .section1 > figure {
 
-        left: -3rem;
-        padding-top: 33rem;
-        font-size: 5rem;
+        left: -2rem;
+        padding-top: 44rem;
+        font-size: 4rem;
        
         
     }
@@ -257,6 +266,17 @@
         grid-template-columns: 500px 1fr;
        
     }
+
+    .plasseringavbilde {
+
+        padding-top: 19rem;
+    }
+
+    .text > h3 {
+
+        font-size: 2.4rem;
+    }
+
 
   }
 

@@ -45,7 +45,7 @@
 }
 
 
-.section2 > .text {
+.section2 > .text2 {
 
     position: absolute;
     width: 570px;
@@ -56,7 +56,7 @@
 
 }
 
-.text > h3 {
+.text2 > h3 {
 
     font-family: 'Vidaloka', serif;
     font-size: 4rem;
@@ -67,7 +67,7 @@
 
 }
 
-.text > p {
+.text2 > p {
 
     font-size: 1.3rem;
     font-weight: 200;
@@ -117,7 +117,7 @@
         width: 940px;
     } 
 
-    .section2 > .text {
+    .section2 > .text2 {
   
         left: 43rem;
   
@@ -130,7 +130,7 @@
 
 @media only screen and (max-width: 1300px) {
     
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 40rem;
       
@@ -145,7 +145,7 @@
 @media only screen and (max-width: 1200px) {
 
 
-    .section2 > .text {
+    .section2 > .text2 {
   
         left: 35rem;
   
@@ -177,7 +177,7 @@
   @media only screen and (max-width: 1150px) {
 
     
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 29rem;
       
@@ -190,7 +190,7 @@
     @media only screen and (max-width: 1050px) {
 
     
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 25rem;
       
@@ -203,7 +203,7 @@
     @media only screen and (max-width: 1000px) {
 
     
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 20rem;
       
@@ -216,20 +216,7 @@
     @media only screen and (max-width: 950px) {
 
 
-        .text2 > h3 {
-
-            font-size: 3rem;
-            text-align: right;
-    
-        }
-    
-        .text2 > p {
-            font-size: 1rem;
-            text-align: right;
-      
-        }
-
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 18rem;
       
@@ -241,7 +228,7 @@
 
     @media only screen and (max-width: 900px) {
 
-        .section2 > .text {
+        .section2 > .text2 {
       
             left: 15rem;
       
@@ -267,9 +254,10 @@
     }
 
 
-    .section2 > .text {
+    .section2 > .text2 {
  
         width: 400px;
+        left: 22rem;
       
     }
 
@@ -280,18 +268,42 @@
     }
 
 
+    .text2 > h3 {
+
+        font-size: 3rem;
+        text-align: right;
+
+    }
+
+    .text2 > p {
+        font-size: 1rem;
+        text-align: right;
+  
+    }
+
+
   }
 
 
 
   @media only screen and (max-width: 800px) {
 
-    .section2 > .text {
+    .section2 > .text2 {
       
-        left: 20rem;
+        left: 18rem;
   
     }
 
+
+  }
+
+  @media only screen and (max-width: 750px){
+
+    .section2 > .text2 {
+ 
+        left: 15rem;
+      
+    }
 
   }
 
@@ -299,9 +311,8 @@
 
 
 
-    .bilde {
+    .bilde2 {
     
-        left: 100px;
         width: 582px;
         /*width: 482px;*/
     }
@@ -313,19 +324,72 @@
         
     }
 
-    .section2 > .text {
+    .section2 > .text2 {
  
         width: 380px;
+    
       
     }
 
-    .text > h3 {
+    .text2 > h3 {
 
         font-size: 2.8rem;
 
     }
 
 
+  }
+
+  @media only screen and (max-width: 690px) {
+
+    .section2 > .text2 {
+ 
+        left: 13rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 650px) {
+
+    .section2 > .text2 {
+ 
+        left: 11rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 620px) {
+
+    .section2 > .text2 {
+ 
+        left: 9rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .section2 > .text2 {
+ 
+        left: 5rem;
+      
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .section2 > .text2 {
+ 
+        left: 2rem;
+      
+    }
 
   }
 
@@ -342,14 +406,14 @@
 
     .section2 > figure {
 
-        left: -3rem;
-        padding-top: 33rem;
-        font-size: 5rem;
+        left: 6rem;
+        padding-top: 44rem;
+        font-size: 4rem;
        
         
     }
 
-    .section2 > .text {
+    .section2 > .text2 { 
  
         width: 350px;
       
@@ -359,6 +423,16 @@
 
         grid-template-columns: 500px 1fr;
        
+    }
+
+
+    .plasseringavbilde {
+
+        padding-top: 19rem;
+    }
+
+    .text2 > h3 {
+        font-size: 2.4rem;
     }
 
   }
