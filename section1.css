@@ -3,7 +3,7 @@
 /*section 1*/
 #hestens-historie {
 
-    padding-top: 4rem;
+    padding-top: 15rem;
 
 }
 
@@ -139,16 +139,6 @@
         
     }
 
-    .introtext > p {
-
-        text-shadow: 3px 3px 3px #00000036;
-
-    }
-
-    .intro > h1 {
-
-        text-shadow: 3px 3px 3px #00000036;
-    }
 
 
   }
@@ -236,6 +226,11 @@
 
   @media only screen and (max-width: 500px) {
 
+    .number {
+        
+        opacity: 0.5;
+
+    }
 
 
     .bilde1 {
@@ -298,6 +293,7 @@
     .number {
 
         padding-right: 1rem;
+        opacity: 0.5;
     
     }
 
@@ -316,13 +312,3 @@
 
   }
 
-
-
-  @media only screen and (max-width: 400px) {
-
-
-
-
-
-
-}

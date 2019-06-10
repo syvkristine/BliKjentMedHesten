@@ -1,0 +1,462 @@
+ 
+
+/*section 6*/
+#fhverandre {
+
+    padding-top: 15rem;
+    
+
+}
+
+.number2 {
+
+    padding-right: 4rem; 
+    display: flex;
+    justify-content: flex-start;;
+    
+}
+
+.number2 > figure {
+
+    font-size: 4rem;
+    font-family: 'Vidaloka', serif;
+    border-bottom: 2.5px solid #5A403F;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 80px;
+    text-align: center;
+    
+
+}
+
+.number > div {
+
+    height: 10px;
+}
+
+
+.section2 {
+
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    grid-gap: 1rem; 
+    /*background-color: #BDB4A5;*/
+
+}
+
+
+.section2 > .text2 {
+
+    position: absolute;
+    width: 570px;
+    left: 49rem;
+    z-index: 3;
+
+
+
+}
+
+.text2 > h3 {
+
+    font-family: 'Vidaloka', serif;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+}
+
+.text2 > p {
+
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.section2 > figure {
+
+    position: absolute;
+    left: 40rem;
+    padding-top: 34rem;
+    font-size: 6rem;
+    font-family: 'Vidaloka', serif;
+    font-weight: 100;
+    color: #BDB4A5;
+}
+
+
+
+.plasseringavbilde{
+
+    padding-top: 12rem;
+}
+
+
+.bilde6 {
+
+
+    background-image: url("bilder/fhverandre.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+
+    overflow-x: visible;
+    overflow: visible;
+  
+
+}
+
+/*resposiv til section 1*/
+@media only screen and (max-width: 1400px) {
+
+    .bilde6 {
+    
+        width: 940px;
+    } 
+
+    .section2 > .text2 {
+  
+        left: 43rem;
+  
+    }
+
+   
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+    
+        .section2 > .text2 {
+      
+            left: 40rem;
+      
+        }
+    
+    
+    }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    .section2 > .text2 {
+  
+        left: 35rem;
+  
+    }
+
+
+    .bilde6 {
+    
+   
+        width: 893px;
+        left: -173px;
+
+    }
+
+    .section2 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 1150px) {
+
+    
+        .section2 > .text2 {
+      
+            left: 29rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 1050px) {
+
+    
+        .section2 > .text2 {
+      
+            left: 25rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+    
+        .section2 > .text2 {
+      
+            left: 20rem;
+      
+        }
+    
+       
+    
+    }
+
+    @media only screen and (max-width: 950px) {
+
+
+        .section2 > .text2 {
+      
+            left: 18rem;
+      
+        }
+
+
+    }
+  
+
+    @media only screen and (max-width: 900px) {
+
+        .section2 > .text2 {
+      
+            left: 15rem;
+      
+        }
+    }
+
+
+  @media only screen and (max-width: 850px) {
+
+
+
+    .bilde6 {
+    
+        width: 648px;
+        /*width: 582px;*/
+    }
+
+    .section2 > figure {
+
+        left: 7rem;
+       
+        
+    }
+
+
+    .section2 > .text2 {
+ 
+        width: 400px;
+        left: 22rem;
+      
+    }
+
+
+    header {
+
+        min-height: 600px;
+    }
+
+
+    .text2 > h3 {
+
+        font-size: 3rem;
+        text-align: right;
+
+    }
+
+    .text2 > p {
+        font-size: 1rem;
+        text-align: right;
+  
+    }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .section2 > .text2 {
+      
+        left: 18rem;
+  
+    }
+
+
+  }
+
+  @media only screen and (max-width: 750px){
+
+    .section2 > .text2 {
+ 
+        left: 15rem;
+      
+    }
+
+  }
+
+  @media only screen and (max-width: 700px) {
+
+
+
+    .bilde6 {
+    
+        width: 582px;
+        /*width: 482px;*/
+    }
+
+    .section2 > figure {
+
+        left: 5rem;
+       
+        
+    }
+
+    .section2 > .text2 {
+ 
+        width: 380px;
+    
+      
+    }
+
+    .text2 > h3 {
+
+        font-size: 2.8rem;
+
+    }
+
+
+  }
+
+  @media only screen and (max-width: 690px) {
+
+    .section2 > .text2 {
+ 
+        left: 13rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 650px) {
+
+    .section2 > .text2 {
+ 
+        left: 11rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 620px) {
+
+    .section2 > .text2 {
+ 
+        left: 9rem;
+      
+    }
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .section2 > .text2 {
+ 
+        left: 5rem;
+      
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+
+    .number2 {
+        
+        opacity: 0.5;
+
+    }
+
+
+    .section2 > figure {
+
+        left: 6rem;
+        padding-top: 44rem;
+        font-size: 4rem;
+       
+        
+    }
+
+    .section2 > .text2 { 
+ 
+        width: 350px;
+        left: 2rem;
+      
+    }
+
+    .section2 {
+
+        grid-template-columns: 500px 1fr;
+       
+    }
+
+
+    .plasseringavbilde {
+
+        padding-top: 19rem;
+    }
+
+    .text2 > h3 {
+        font-size: 2.4rem;
+    }
+
+    
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 450px) {
+
+ 
+
+    .number2 {
+
+        padding-right: 3rem;
+        
+    
+    }
+
+    .section2 > .text2 {
+
+        width: 300px;
+        left: 1rem;
+    }
+
+    .text2 > p {
+
+        font-weight: 300;
+        line-height: none;
+    }
+
+
+  }
+

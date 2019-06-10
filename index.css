@@ -85,3 +85,23 @@ main {
     font-family: 'Nunito', sans-serif;  /*dette er istedefor avenir nextr*/
     color: #5A403F;
 } 
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    .introtext > p {
+
+        text-shadow: 3px 3px 3px #00000036;
+
+    }
+
+    .intro > h1 {
+
+        text-shadow: 3px 3px 3px #00000036;
+    }
+
+
+  }

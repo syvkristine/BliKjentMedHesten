@@ -3,7 +3,7 @@
 /*section 2*/
 #hestenspovirkning {
 
-    padding-top: 4rem;
+    padding-top: 15rem;
     
 
 }
@@ -396,7 +396,11 @@
 
   @media only screen and (max-width: 500px) {
 
+    .number2 {
+        
+        opacity: 0.5;
 
+    }
 
     .bilde {
     
@@ -445,10 +449,10 @@
 
  
 
-
     .number2 {
 
         padding-right: 3rem;
+        
     
     }
 
