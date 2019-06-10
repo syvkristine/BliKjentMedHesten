@@ -295,7 +295,6 @@
        
     }
 
-
     .number {
 
         padding-right: 3rem;
@@ -305,14 +304,14 @@
     .section1 > .text {
 
         width: 310px;
-        left: 2rem;
+        left: 1rem;
     }
 
     .text > p {
 
 
         font-weight: 300;
-        line-height: 20px;
+        line-height: none;
     }
 
 
