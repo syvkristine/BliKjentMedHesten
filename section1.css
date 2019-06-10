@@ -278,5 +278,58 @@
     }
 
 
+
   }
 
+
+
+  @media only screen and (max-width: 450px) {
+
+    .introtext > h2 {
+    
+        font-size: 2.8rem;
+       
+    }
+
+    .introtext > p {
+    
+        font-size: 2.8rem;
+       
+    }
+
+
+    .number {
+
+        padding-right: 3rem;
+    
+    }
+
+    .section1 > .text {
+
+        width: 310px;
+        left: 2rem;
+    }
+
+    .text > p {
+
+
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 400px) {
+
+
+
+
+
+
+}
