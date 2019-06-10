@@ -436,3 +436,34 @@
     }
 
   }
+
+
+
+
+
+  @media only screen and (max-width: 450px) {
+
+ 
+
+
+    .number2 {
+
+        padding-right: 3rem;
+    
+    }
+
+    .section2 > .text2 {
+
+        width: 300px;
+        left: 1rem;
+    }
+
+    .text2 > p {
+
+        font-weight: 300;
+        line-height: none;
+    }
+
+
+  }
+

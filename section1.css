@@ -289,17 +289,15 @@
 
   @media only screen and (max-width: 450px) {
 
- 
-
-    .introtext > p {
+    .introtext > h2 {
     
-        font-size: 3rem;
+        font-size: 2.9rem;
        
     }
 
     .number {
 
-        padding-right: 3rem;
+        padding-right: 1rem;
     
     }
 
@@ -312,7 +310,7 @@
     .text > p {
 
         font-weight: 300;
-        line-height: none;
+        line-height: 20px;
     }
 
 
