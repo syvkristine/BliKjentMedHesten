@@ -35,7 +35,7 @@
 }
 
 
-.section2 {
+.section6 {
 
     display: grid;
     grid-template-columns: 1fr 550px;
@@ -45,7 +45,7 @@
 }
 
 
-.section2 > .text2 {
+.section6 > .text2 {
 
     position: absolute;
     width: 570px;
@@ -74,7 +74,7 @@
     line-height: 30px;
 }
 
-.section2 > figure {
+.section6 > figure {
 
     position: absolute;
     left: 40rem;
@@ -117,7 +117,7 @@
         width: 940px;
     } 
 
-    .section2 > .text2 {
+    .section6 > .text2 {
   
         left: 43rem;
   
@@ -130,7 +130,7 @@
 
 @media only screen and (max-width: 1300px) {
     
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 40rem;
       
@@ -145,7 +145,7 @@
 @media only screen and (max-width: 1200px) {
 
 
-    .section2 > .text2 {
+    .section6 > .text2 {
   
         left: 35rem;
   
@@ -160,7 +160,7 @@
 
     }
 
-    .section2 > figure {
+    .section6 > figure {
 
         left: 7rem;
        
@@ -177,7 +177,7 @@
   @media only screen and (max-width: 1150px) {
 
     
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 29rem;
       
@@ -190,7 +190,7 @@
     @media only screen and (max-width: 1050px) {
 
     
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 25rem;
       
@@ -203,7 +203,7 @@
     @media only screen and (max-width: 1000px) {
 
     
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 20rem;
       
@@ -216,7 +216,7 @@
     @media only screen and (max-width: 950px) {
 
 
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 18rem;
       
@@ -228,7 +228,7 @@
 
     @media only screen and (max-width: 900px) {
 
-        .section2 > .text2 {
+        .section6 > .text2 {
       
             left: 15rem;
       
@@ -246,7 +246,7 @@
         /*width: 582px;*/
     }
 
-    .section2 > figure {
+    .section6 > figure {
 
         left: 7rem;
        
@@ -254,7 +254,7 @@
     }
 
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         width: 400px;
         left: 22rem;
@@ -288,7 +288,7 @@
 
   @media only screen and (max-width: 800px) {
 
-    .section2 > .text2 {
+    .section6 > .text2 {
       
         left: 18rem;
   
@@ -299,7 +299,7 @@
 
   @media only screen and (max-width: 750px){
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         left: 15rem;
       
@@ -317,14 +317,14 @@
         /*width: 482px;*/
     }
 
-    .section2 > figure {
+    .section6 > figure {
 
         left: 5rem;
        
         
     }
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         width: 380px;
     
@@ -342,7 +342,7 @@
 
   @media only screen and (max-width: 690px) {
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         left: 13rem;
       
@@ -353,7 +353,7 @@
 
   @media only screen and (max-width: 650px) {
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         left: 11rem;
       
@@ -364,7 +364,7 @@
 
   @media only screen and (max-width: 620px) {
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         left: 9rem;
       
@@ -375,7 +375,7 @@
 
   @media only screen and (max-width: 600px) {
 
-    .section2 > .text2 {
+    .section6 > .text2 {
  
         left: 5rem;
       
@@ -394,7 +394,7 @@
     }
 
 
-    .section2 > figure {
+    .section6 > figure {
 
         left: 6rem;
         padding-top: 44rem;
@@ -403,14 +403,14 @@
         
     }
 
-    .section2 > .text2 { 
+    .section6 > .text2 { 
  
         width: 350px;
         left: 2rem;
       
     }
 
-    .section2 {
+    .section6 {
 
         grid-template-columns: 500px 1fr;
        
@@ -445,7 +445,7 @@
     
     }
 
-    .section2 > .text2 {
+    .section6 > .text2 {
 
         width: 300px;
         left: 1rem;

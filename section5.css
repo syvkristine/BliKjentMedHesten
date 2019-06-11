@@ -35,7 +35,7 @@
 }
 
 
-.section3 {
+.section5 {
 
     display: grid;
     grid-template-columns: 550px 1fr;
@@ -45,7 +45,7 @@
 }
 
 
-.section3 > .text {
+.section5 > .text {
 
     position: absolute;
     width: 570px;
@@ -74,7 +74,7 @@
     line-height: 30px;
 }
 
-.section3 > figure {
+.section5 > figure {
 
     position: absolute;
     left: 21rem;
@@ -110,7 +110,7 @@
 
 }
 
-/*resposiv til section 1*/
+/*resposiv til section 5*/
 @media only screen and (max-width: 1440px) {
 
     .bilde5 {
@@ -135,7 +135,7 @@
 
     }
 
-    .section3 > figure {
+    .section5 > figure {
 
         left: 7rem;
        
@@ -160,7 +160,7 @@
         /*width: 582px;*/
     }
 
-    .section3 > figure {
+    .section5 > figure {
 
         left: 7rem;
        
@@ -178,7 +178,7 @@
   
     }
 
-    .section3 > .text {
+    .section5 > .text {
  
         width: 400px;
       
@@ -204,14 +204,14 @@
         /*width: 482px;*/
     }
 
-    .section3 > figure {
+    .section5 > figure {
 
         left: 5rem;
        
         
     }
 
-    .section3 > .text {
+    .section5 > .text {
  
         width: 380px;
       
@@ -235,7 +235,7 @@
         width: 400px;
     }
 
-    .section3 > figure {
+    .section5 > figure {
 
         left: -2rem;
         padding-top: 44rem;
@@ -244,13 +244,13 @@
         
     }
 
-    .section3 > .text {
+    .section5 > .text {
  
         width: 350px;
       
     }
 
-    .section3 {
+    .section5 {
 
         grid-template-columns: 500px 1fr;
        
