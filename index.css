@@ -2,12 +2,18 @@
     box-sizing: border-box;
   }
 
+
+  html, body {
+
+    overflow-x: hidden;
+
+  }
+
 body {
 
     margin: 0;
     padding: 0;
     font-size: 100%;
-    overflow-x: hidden;
 
 }
 
@@ -150,6 +156,13 @@ main {
     
         font-size: 2.9rem;
        
+    }
+
+    header {
+
+        grid-template-columns: 1fr 30px;
+    
+        
     }
 
 
