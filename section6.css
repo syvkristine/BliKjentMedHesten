@@ -449,7 +449,7 @@
     .text6 > p {
 
         font-weight: 300;
-        line-height: none;
+        line-height: 25px;
     }
 
 
