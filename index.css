@@ -28,7 +28,7 @@ header {
     min-height: 100vh;
     min-width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 50px;
+    grid-template-columns: 1fr 70px;
 
     
 }
@@ -78,22 +78,23 @@ header {
 .fixed-position > a {
 
     display: block;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 1rem 1rem 1rem;
     text-decoration: none;
-    color: #5A403F;
+    color: #BDB4A5;
     font-size: 1.2rem;
     font-family: 'Vidaloka', serif;
-    transition: ease-in-out .5s;
+    transition: ease-in-out;
  
 }
 
 
 .fixed-position > a:hover {
 
-    color: #BDB4A5;
-    border-bottom: 2px solid #BDB4A5;
-   
- 
+    color: #5A403F;
+    border-bottom: 2px solid #5A403F;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+     
 }
 
 main {
