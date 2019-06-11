@@ -244,6 +244,8 @@
     }
 
     .text6 > p {
+        
+        font-weight: 400;
         font-size: 1rem;
         text-align: right;
   
@@ -417,7 +419,6 @@
 
     .text6 > p {
 
-        font-weight: 300;
         line-height: 23px;
 
     }

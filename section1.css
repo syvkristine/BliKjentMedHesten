@@ -116,14 +116,10 @@
         width: 940px;
     }
 
-
 }
 
 
-
-
 @media only screen and (max-width: 1200px) {
-
 
 
     .bilde1{
@@ -140,14 +136,11 @@
         
     }
 
-
-
   }
 
 
 
   @media only screen and (max-width: 850px) {
-
 
 
     .bilde1 {
@@ -161,7 +154,6 @@
 
         left: 7rem;
        
-        
     }
 
     .text > h3 {
@@ -171,7 +163,9 @@
     }
 
     .text > p {
+        
         font-size: 1rem;
+        font-weight: 400;
   
     }
 

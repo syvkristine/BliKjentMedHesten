@@ -162,7 +162,9 @@
     }
 
     .text5 > p {
+
         font-size: 1rem;
+        font-weight: 400;
   
     }
 
@@ -246,7 +248,6 @@
 
     .text5 > p {
 
-        font-weight: 300;
         line-height: 23px;
     }
 

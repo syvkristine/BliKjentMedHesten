@@ -81,8 +81,18 @@ header {
     padding: 1rem 0 1rem 0;
     text-decoration: none;
     color: #5A403F;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Vidaloka', serif;
+    transition: ease-in-out .5s;
+ 
+}
+
+
+.fixed-position > a:hover {
+
+    color: #BDB4A5;
+    border-bottom: 2px solid #BDB4A5;
+   
  
 }
 
