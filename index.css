@@ -87,10 +87,8 @@ main {
 } 
 
 
-
+/*resposiv til felles på siden*/
 @media only screen and (max-width: 1200px) {
-
-
 
     .introtext > p {
 
@@ -103,14 +101,19 @@ main {
         text-shadow: 3px 3px 3px #00000036;
     }
 
+}
 
-  }
+@media only screen and (max-width: 850px) {
 
-  
 
+    header {
+
+        min-height: 600px;
+    }
+
+}
 
 @media only screen and (max-width: 500px) {
-
 
 
     .intro {
@@ -139,11 +142,9 @@ main {
     }
 
 
-  }
+}
 
-
-
-  @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 
     .introtext > h2 {
     
@@ -152,4 +153,4 @@ main {
     }
 
 
-  }
+}

@@ -82,11 +82,12 @@
     font-family: 'Vidaloka', serif;
     font-weight: 100;
     color: #BDB4A5;
+    text-shadow: 3px 3px 3px #00000036;
 }
 
 
 
-.plasseringavbilde{
+.plasseringavbilde {
 
     padding-top: 10rem;
 }
@@ -180,13 +181,6 @@
       
     }
 
-
-    header {
-
-        min-height: 600px;
-    }
-
-
   }
 
   @media only screen and (max-width: 700px) {
@@ -233,14 +227,14 @@
 
     .bilde1 {
     
-        left: 100px;
-        width: 400px;
+        left: 0px;
+
     }
 
     .section1 > figure {
 
         left: -2rem;
-        padding-top: 44rem;
+        padding-top: 46rem;
         font-size: 4rem;
        
         
@@ -261,7 +255,7 @@
 
     .plasseringavbilde {
 
-        padding-top: 19rem;
+        padding-top: 21rem;
     }
 
     .text > h3 {
@@ -272,6 +266,12 @@
 
     #hestens-historie {
         padding-top: 2rem;
+    }
+
+    .text > p {
+
+        font-weight: 300;
+        line-height: 23px;
     }
 
 

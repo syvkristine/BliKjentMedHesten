@@ -106,7 +106,7 @@
 
 
 
-.plasseringavbilde7{
+.plasseringavbilde7 { 
 
     padding-top: 10rem;
 }
@@ -212,7 +212,7 @@
     }
 
 
-    .plasseringavbilde {
+    .plasseringavbilde7 {
 
         padding-top: 19rem;
     }
@@ -221,7 +221,18 @@
         font-size: 2.4rem;
     }
 
-    
+    .text7 > p {
+
+        font-weight: 300;
+        line-height: 23px;
+    }
+
+    .section7 > a {
+
+        padding-top: 59rem;
+  
+    }
+
 
   }
 

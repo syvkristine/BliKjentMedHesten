@@ -83,11 +83,12 @@
     font-family: 'Vidaloka', serif;
     font-weight: 100;
     color: #BDB4A5;
+    text-shadow: 3px 3px 3px #00000036;
 }
 
 
 
-.plasseringavbilde{
+.plasseringavbilde3 {
 
     padding-top: 12rem;
 }
@@ -103,14 +104,11 @@
     width: 1000px;
     position: relative;
     left: 500px;
-
-    overflow-x: visible;
-    overflow: visible;
   
 
 }
 
-/*resposiv til section 1*/
+/*resposiv til section 3*/
 @media only screen and (max-width: 1440px) {
 
     .bilde3 {
@@ -118,10 +116,7 @@
         width: 940px;
     }
 
-
 }
-
-
 
 
 @media only screen and (max-width: 1200px) {
@@ -142,14 +137,11 @@
         
     }
 
-  
-
-
-  }
+}
 
 
 
-  @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
 
 
 
@@ -185,15 +177,9 @@
     }
 
 
-    header {
+}
 
-        min-height: 600px;
-    }
-
-
-  }
-
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
 
 
 
@@ -226,21 +212,25 @@
   }
 
 
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
 
-    .bilde {
+    .bilde3 {
     
-        left: 100px;
-        width: 400px;
+        left: 0px;
+
+    }
+
+    .plasseringavbilde3 {
+
+        padding-top: 21rem;
     }
 
     .section3 > figure {
 
         left: -2rem;
-        padding-top: 44rem;
-        font-size: 4rem;
-       
+        padding-top: 46rem;
+        font-size: 4rem; 
         
     }
 
@@ -261,11 +251,16 @@
         font-size: 2.4rem;
     }
 
+    .text3 > p {
 
-  }
+        font-weight: 300;
+        line-height: 23px;
+    }
+
+}
 
 
-  @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 
 
     .section3 > .text3 {
@@ -280,112 +275,12 @@
         line-height: 23px;
     }
 
-   
+}
 
 
-  }
-
-
-
-
-  /*
+  
 
 
 
-  @media only screen and (max-width: 500px) {
-
-    .number {
-        
-        opacity: 0.5;
-
-    }
-
-
-    .bilde1 {
-    
-        left: 100px;
-        width: 400px;
-    }
-
-    .section1 > figure {
-
-        left: -2rem;
-        padding-top: 44rem;
-        font-size: 4rem;
-       
-        
-    }
-
-    .section1 > .text {
- 
-        width: 350px;
-        left: 2rem;
-      
-    }
-
-    .section1 {
-
-        grid-template-columns: 500px 1fr;
-       
-    }
-
-    .plasseringavbilde {
-
-        padding-top: 19rem;
-    }
-
-    .text > h3 {
-
-        font-size: 2.4rem;
-    }
-
-    .fixed-position {
-
-        position: fixed;
-        padding-top: 3rem;
-    }
-
-    #hestens-historie {
-        padding-top: 2rem;
-    }
-
-
-
-  }
-
-
-
-  @media only screen and (max-width: 450px) {
-
-    .introtext > h2 {
-    
-        font-size: 2.9rem;
-       
-    }
-
-    .number {
-
-        padding-right: 1rem;
-        opacity: 0.5;
-    
-    }
-
-    .section1 > .text {
-
-        width: 300px;
-        left: 2rem;
-    }
-
-    .text > p {
-
-        font-weight: 300;
-        line-height: 20px;
-    }
-
-
-  }
-
-
-*/
 
 

@@ -1,5 +1,4 @@
  
-
 /*section 4*/
 #sanser {
 
@@ -83,11 +82,12 @@
     font-family: 'Vidaloka', serif;
     font-weight: 100;
     color: #BDB4A5;
+    text-shadow: 3px 3px 3px #00000036;
 }
 
 
 
-.plasseringavbilde{
+.plasseringavbilde4 {
 
     padding-top: 12rem;
 }
@@ -102,9 +102,6 @@
     height: 500px;
     width: 1000px;
     position: relative;
-
-    overflow-x: visible;
-    overflow: visible;
   
 
 }
@@ -123,21 +120,19 @@
   
     }
 
-   
-
 
 }
 
 @media only screen and (max-width: 1300px) {
     
-        .section4 > .text4 {
+    .section4 > .text4 {
       
-            left: 40rem;
+        left: 40rem;
       
-        }
-    
-    
     }
+    
+    
+}
 
 
 
@@ -151,27 +146,19 @@
   
     }
 
-
     .bilde4 {
     
-   
         width: 893px;
         left: -173px;
-
     }
 
     .section4 > figure {
 
         left: 7rem;
-       
         
     }
 
-
-
   }
-
-
 
 
   @media only screen and (max-width: 1150px) {
@@ -183,8 +170,6 @@
       
         }
     
-       
-    
     }
 
     @media only screen and (max-width: 1050px) {
@@ -194,9 +179,7 @@
       
             left: 25rem;
       
-        }
-    
-       
+        }  
     
     }
 
@@ -207,9 +190,7 @@
       
             left: 20rem;
       
-        }
-    
-       
+        } 
     
     }
 
@@ -249,10 +230,8 @@
     .section4 > figure {
 
         left: 7rem;
-       
         
     }
-
 
     .section4 > .text4 {
  
@@ -260,13 +239,6 @@
         left: 22rem;
       
     }
-
-
-    header {
-
-        min-height: 600px;
-    }
-
 
     .text4 > h3 {
 
@@ -327,8 +299,6 @@
     .section4 > .text4 {
  
         width: 380px;
-    
-      
     }
 
     .text4 > h3 {
@@ -384,7 +354,6 @@
   }
 
 
-
   @media only screen and (max-width: 500px) {
 
     .number2 {
@@ -392,15 +361,13 @@
         opacity: 0.5;
 
     }
-
-
+    
     .section4 > figure {
 
         left: 6rem;
-        padding-top: 44rem;
+        padding-top: 53rem;
         font-size: 4rem;
-       
-        
+         
     }
 
     .section4 > .text4 { 
@@ -416,33 +383,35 @@
        
     }
 
+    .plasseringavbilde4 {
 
-    .plasseringavbilde {
-
-        padding-top: 19rem;
+        padding-top: 29rem;
     }
 
     .text4 > h3 {
         font-size: 2.4rem;
     }
 
+    .text4 > p {
+
+        font-weight: 300;
+        line-height: 23px;
+    }
+
+    .bilde4 {
     
+        left: 0px;
+
+    }
 
   }
 
-
-
-
-
   @media only screen and (max-width: 450px) {
-
- 
 
     .number2 {
 
         padding-right: 3rem;
         
-    
     }
 
     .section4 > .text4 {
