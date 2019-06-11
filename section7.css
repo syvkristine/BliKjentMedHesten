@@ -57,7 +57,7 @@
 }
 
 
-.section7 > .text2 {
+.section7 > .text7 {
 
     position: absolute;
     width: 700px;
@@ -72,7 +72,7 @@
 
 }
 
-.text2 > h3 {
+.text7 > h3 {
 
     font-family: 'Vidaloka', serif;
     font-size: 4rem;
@@ -84,7 +84,7 @@
 
 }
 
-.text2 > p {
+.text7 > p {
 
     font-size: 1.3rem;
     font-weight: 200;
@@ -271,7 +271,7 @@
     }
 
 
-    .section7 > .text2 {
+    .section7 > .text7 {
  
         width: 400px;
         /*left: 22rem;*/
@@ -285,14 +285,14 @@
     }
 
 
-    .text2 > h3 {
+    .text7 > h3 {
 
         font-size: 3rem;
         /*text-align: right;*/
 
     }
 
-    .text2 > p {
+    .text7 > p {
         font-size: 1rem;
         /*text-align: right;*/
   
@@ -341,14 +341,14 @@
         
     }
 
-    .section7 > .text2 {
+    .section7 > .text7 {
  
         width: 380px;
     
       
     }
 
-    .text2 > h3 {
+    .text7 > h3 {
 
         font-size: 2.8rem;
 
@@ -420,7 +420,7 @@
         
     }
 
-    .section7 > .text2 { 
+    .section7 > .text7 { 
  
         width: 350px;
         /*left: 2rem;*/      
@@ -438,7 +438,7 @@
         padding-top: 19rem;
     }
 
-    .text2 > h3 {
+    .text7 > h3 {
         font-size: 2.4rem;
     }
 
@@ -461,13 +461,13 @@
     
     }
 
-    .section7 > .text2 {
+    .section7 > .text7 {
 
         width: 300px;
         /*left: 1rem;*/
     }
 
-    .text2 > p {
+    .text7 > p {
 
         font-weight: 300;
         line-height: none;

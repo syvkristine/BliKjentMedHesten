@@ -19,8 +19,8 @@ header {
     background-size: cover;
    /* background-attachment: fixed;*/
     background-repeat: no-repeat;
-    min-height: 800px;
-    min-width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     display: grid;
     grid-template-columns: 1fr 50px;
 
