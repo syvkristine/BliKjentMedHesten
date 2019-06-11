@@ -120,4 +120,36 @@ main {
     }
 
 
+    .introtext > h2 {
+
+        font-size: 2.8rem;
+      
+    }
+    
+    .introtext > p {
+    
+        font-size: 5.3rem;
+    
+    }
+
+    .fixed-position {
+
+        position: fixed;
+        padding-top: 3rem;
+    }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 450px) {
+
+    .introtext > h2 {
+    
+        font-size: 2.9rem;
+       
+    }
+
+
   }
