@@ -449,6 +449,12 @@
         line-height: 23px;
     }
 
+    .section2 > figure {
+
+        left: 6rem;
+        
+    }
+
 
   }
 
