@@ -48,7 +48,7 @@
 .section7 > a {
 
     /* bottom: 1rem; */
-    padding-top: 40rem;
+    padding-top: 50rem;
     left: 3rem;
     z-index: 10;
     text-align: center;
@@ -117,7 +117,7 @@
     background-image: url("bilder/lyttTilHesten.jpg");
     background-position: center;
     background-size: cover;
-    height: 550px;
+    height: 700px;
     width: 100%;
     position: relative;
   
