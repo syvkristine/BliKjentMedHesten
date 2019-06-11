@@ -45,7 +45,7 @@
 }
 
 
-.section4 > .text2 {
+.section4 > .text4 {
 
     position: absolute;
     width: 570px;
@@ -56,7 +56,7 @@
 
 }
 
-.text2 > h3 {
+.text4 > h3 {
 
     font-family: 'Vidaloka', serif;
     font-size: 4rem;
@@ -67,7 +67,7 @@
 
 }
 
-.text2 > p {
+.text4 > p {
 
     font-size: 1.3rem;
     font-weight: 200;
@@ -117,7 +117,7 @@
         width: 940px;
     } 
 
-    .section4 > .text2 {
+    .section4 > .text4 {
   
         left: 43rem;
   
@@ -130,7 +130,7 @@
 
 @media only screen and (max-width: 1300px) {
     
-        .section4 > .text2 {
+        .section4 > .text4 {
       
             left: 40rem;
       
@@ -145,7 +145,7 @@
 @media only screen and (max-width: 1200px) {
 
 
-    .section4 > .text2 {
+    .section4 > .text4 {
   
         left: 35rem;
   
@@ -177,7 +177,7 @@
   @media only screen and (max-width: 1150px) {
 
     
-        .section4 > .text2 {
+        .section4 > .text4 {
       
             left: 29rem;
       
@@ -190,7 +190,7 @@
     @media only screen and (max-width: 1050px) {
 
     
-        .section4 > .text2 {
+        .section4 > .text4 {
       
             left: 25rem;
       
@@ -203,7 +203,7 @@
     @media only screen and (max-width: 1000px) {
 
     
-        .section4 > .text2 {
+        .section4 > .text4 {
       
             left: 20rem;
       
@@ -216,7 +216,7 @@
     @media only screen and (max-width: 950px) {
 
 
-        .section2 > .text2 {
+        .section2 > .text4 {
       
             left: 18rem;
       
@@ -228,7 +228,7 @@
 
     @media only screen and (max-width: 900px) {
 
-        .section4 > .text2 {
+        .section4 > .text4 {
       
             left: 15rem;
       
@@ -254,7 +254,7 @@
     }
 
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         width: 400px;
         left: 22rem;
@@ -268,14 +268,14 @@
     }
 
 
-    .text2 > h3 {
+    .text4 > h3 {
 
         font-size: 3rem;
         text-align: right;
 
     }
 
-    .text2 > p {
+    .text4 > p {
         font-size: 1rem;
         text-align: right;
   
@@ -288,7 +288,7 @@
 
   @media only screen and (max-width: 800px) {
 
-    .section4 > .text2 {
+    .section4 > .text4 {
       
         left: 18rem;
   
@@ -299,7 +299,7 @@
 
   @media only screen and (max-width: 750px){
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         left: 15rem;
       
@@ -324,14 +324,14 @@
         
     }
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         width: 380px;
     
       
     }
 
-    .text2 > h3 {
+    .text4 > h3 {
 
         font-size: 2.8rem;
 
@@ -342,7 +342,7 @@
 
   @media only screen and (max-width: 690px) {
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         left: 13rem;
       
@@ -353,7 +353,7 @@
 
   @media only screen and (max-width: 650px) {
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         left: 11rem;
       
@@ -364,7 +364,7 @@
 
   @media only screen and (max-width: 620px) {
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         left: 9rem;
       
@@ -375,7 +375,7 @@
 
   @media only screen and (max-width: 600px) {
 
-    .section4 > .text2 {
+    .section4 > .text4 {
  
         left: 5rem;
       
@@ -403,7 +403,7 @@
         
     }
 
-    .section4 > .text2 { 
+    .section4 > .text4 { 
  
         width: 350px;
         left: 2rem;
@@ -422,7 +422,7 @@
         padding-top: 19rem;
     }
 
-    .text2 > h3 {
+    .text4 > h3 {
         font-size: 2.4rem;
     }
 
@@ -445,13 +445,13 @@
     
     }
 
-    .section4 > .text2 {
+    .section4 > .text4 {
 
         width: 300px;
         left: 1rem;
     }
 
-    .text2 > p {
+    .text4 > p {
 
         font-weight: 300;
         line-height: none;

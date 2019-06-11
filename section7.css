@@ -12,7 +12,6 @@
 
 .number7 {
 
-    padding-right: 4rem; 
     display: flex;
     justify-content: center;
     
@@ -126,151 +125,9 @@
 
 }
 
-/*resposiv til section 1*/
-@media only screen and (max-width: 1400px) {
-/*
-    .bilde7 {
-    
-        width: 940px;
-    } 
-/*
-    .section7 > .text2 {
-  
-        left: 43rem;
-  
-    }
-
-   */
-
-
-}
-
-@media only screen and (max-width: 1300px) {
-    /*
-        .section7 > .text2 {
-      
-            left: 40rem;
-      
-        }
-    */
-    
-    }
-
-
-
-
-@media only screen and (max-width: 1200px) {
-
-/*
-    .section7 > .text2 {
-  
-        left: 35rem;
-  
-    }
-*/
-/*
-    .bilde7 {
-    
-   
-        width: 893px;
-        
-
-    } */
-
-    .section7 > figure {
-
-        left: 7rem;
-       
-        
-    }
-
-
-
-  }
-
-
-
-
-  @media only screen and (max-width: 1150px) {
-
-    /*
-        .section7 > .text2 {
-      
-            left: 29rem;
-      
-        }
-    
-       */
-    
-    }
-
-    @media only screen and (max-width: 1050px) {
-
-    /*
-        .section7 > .text2 {
-      
-            left: 25rem;
-      
-        }
-    
-       */
-    
-    }
-
-    @media only screen and (max-width: 1000px) {
-/*
-    
-        .section7 > .text2 {
-      
-            left: 20rem;
-      
-        }
-    */
-       
-    
-    }
-
-    @media only screen and (max-width: 950px) {
-
-/*
-        .section7 > .text2 {
-      
-            left: 18rem;
-      
-        }
-
-*/
-    }
-  
-
-    @media only screen and (max-width: 900px) {
-/*
-        .section7 > .text2 {
-      
-            left: 15rem;
-      
-        }
-
-        */
-    }
-
+/*resposiv til section 7*/
 
   @media only screen and (max-width: 850px) {
-
-/*
-
-    .bilde7 {
-    
-        width: 648px;
-        /*width: 582px;
-    }*/
-
-    .section7 > figure {
-
-        left: 7rem;
-       
-        
-    }
 
 
     .section7 > .text7 {
@@ -304,44 +161,9 @@
   }
 
 
-
-  @media only screen and (max-width: 800px) {
-/*
-    .section7 > .text2 {
-      
-        left: 18rem;
-  
-    }
-*/
-
-  }
-
-  @media only screen and (max-width: 750px){
-/*
-    .section7 > .text2 {
- 
-        left: 15rem;
-      
-    }
-*/
-  }
-
   @media only screen and (max-width: 700px) {
 
 
-/*
-    .bilde7 {
-    
-        width: 582px;
-        /*width: 482px;
-    }*/
-
-    .section7 > figure {
-
-        left: 5rem;
-       
-        
-    }
 
     .section7 > .text7 {
  
@@ -359,50 +181,6 @@
 
   }
 
-  @media only screen and (max-width: 690px) {
-/*
-    .section7 > .text2 {
- 
-        left: 13rem;
-      
-    }*/
-
-  }
-
-
-  @media only screen and (max-width: 650px) {
-/*
-    .section7 > .text2 {
- 
-        left: 11rem;
-      
-    }
-*/
-  }
-
-
-  @media only screen and (max-width: 620px) {
-/*
-    .section7 > .text2 {
- 
-        left: 9rem;
-      
-    }
-*/
-  }
-
-
-  @media only screen and (max-width: 600px) {
-/*
-    .section7 > .text2 {
- 
-        left: 5rem;
-      
-    }
-*/
-  }
-
-
 
   @media only screen and (max-width: 500px) {
 
@@ -415,7 +193,6 @@
 
     .section7 > figure {
 
-        left: 6rem;
         padding-top: 44rem;
         font-size: 4rem;
        

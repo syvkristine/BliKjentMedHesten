@@ -45,7 +45,7 @@
 }
 
 
-.section3 > .text {
+.section3 > .text3 {
 
     position: absolute;
     width: 570px;
@@ -56,7 +56,7 @@
 
 }
 
-.text > h3 {
+.text3 > h3 {
 
     font-family: 'Vidaloka', serif;
     font-size: 4rem;
@@ -67,7 +67,7 @@
 
 }
 
-.text > p {
+.text3 > p {
 
     font-size: 1.3rem;
     font-weight: 200;
@@ -167,18 +167,18 @@
         
     }
 
-    .text > h3 {
+    .text3 > h3 {
 
         font-size: 3rem;
 
     }
 
-    .text > p {
+    .text3 > p {
         font-size: 1rem;
   
     }
 
-    .section3 > .text {
+    .section3 > .text3 {
  
         width: 400px;
       
@@ -211,13 +211,13 @@
         
     }
 
-    .section3 > .text {
+    .section3 > .text3 {
  
         width: 380px;
       
     }
 
-    .text > h3 {
+    .text3 > h3 {
 
         font-size: 2.8rem;
 
@@ -244,7 +244,7 @@
         
     }
 
-    .section3 > .text {
+    .section3 > .text3 {
  
         width: 350px;
         left: 2rem;
@@ -257,7 +257,7 @@
        
     }
 
-    .text > h3 {
+    .text3 > h3 {
         font-size: 2.4rem;
     }
 
@@ -268,7 +268,7 @@
   @media only screen and (max-width: 450px) {
 
 
-    .section3 > .text {
+    .section3 > .text3 {
 
         width: 300px;
         left: 2rem;
