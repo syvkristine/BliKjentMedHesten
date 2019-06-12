@@ -1,13 +1,11 @@
- 
 
 /*section 6*/
 #lyttTilHesten {
 
     padding-top: 15rem;
-    font-family: 'Nunito', sans-serif;  /*dette er istedefor avenir nextr*/
+    font-family: 'Nunito', sans-serif; 
     color: #5A403F;
     
-
 }
 
 .number7 {
@@ -27,7 +25,6 @@
     width: 80px;
     text-align: center;
     
-
 }
 
 .number7 > div {
@@ -35,20 +32,16 @@
     height: 10px;
 }
 
-
 .section7 {
 
     display: grid;
     grid-template-rows: 1fr;
     grid-gap: 1rem;
-    /* width: 100%; */
-    /* background-color: #BDB4A5; */
 
 }
 
 .section7 > a {
 
-    /* bottom: 1rem; */
     padding-top: 50rem;
     left: 3rem;
     z-index: 10;
@@ -56,7 +49,6 @@
     color: #5A403F;
     position: absolute;
 }
-
 
 .section7 > .text7 {
 
@@ -68,9 +60,6 @@
     background-color: rgba(255, 255, 255, 0.534);
     padding: 1.5rem;
 
-
-
-
 }
 
 .text7 > h3 {
@@ -81,7 +70,6 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-
 
 }
 
@@ -104,16 +92,12 @@
     color: #BDB4A5;
 }
 
-
-
 .plasseringavbilde7 { 
 
     padding-top: 10rem;
 }
 
-
 .bilde7 {
-
 
     background-image: url("bilder/lyttTilHesten.jpg");
     background-position: center;
@@ -126,50 +110,37 @@
 }
 
 /*resposiv til section 7*/
-
   @media only screen and (max-width: 850px) {
-
 
     .section7 > .text7 {
  
         width: 400px;
-        /*left: 22rem;*/
+
       
     }
-
-
-    header {
-
-        min-height: 600px;
-    }
-
 
     .text7 > h3 {
 
         font-size: 3rem;
-        /*text-align: right;*/
+        
 
     }
 
     .text7 > p {
         font-size: 1rem;
-        /*text-align: right;*/
+        
   
     }
 
-
   }
 
-
   @media only screen and (max-width: 700px) {
-
 
 
     .section7 > .text7 {
  
         width: 380px;
     
-      
     }
 
     .text7 > h3 {
@@ -178,9 +149,7 @@
 
     }
 
-
   }
-
 
   @media only screen and (max-width: 500px) {
 
@@ -190,19 +159,17 @@
 
     }
 
-
     .section7 > figure {
 
         padding-top: 44rem;
-        font-size: 4rem;
-       
+        font-size: 4rem; 
         
     }
 
     .section7 > .text7 { 
  
         width: 350px;
-        /*left: 2rem;*/      
+    
     }
 
     .section7 {
@@ -210,7 +177,6 @@
         grid-template-columns: 500px 1fr;
        
     }
-
 
     .plasseringavbilde7 {
 
@@ -233,28 +199,21 @@
   
     }
 
-
   }
-
-
-
-
 
   @media only screen and (max-width: 450px) {
 
  
-
     .number2 {
 
         padding-right: 3rem;
         
-    
     }
 
     .section7 > .text7 {
 
         width: 300px;
-        /*left: 1rem;*/
+    
     }
 
     .text7 > p {
@@ -264,5 +223,5 @@
     }
 
 
-  }
+}
 

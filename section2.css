@@ -1,11 +1,9 @@
  
-
 /*section 2*/
 #hestenspovirkning {
 
     padding-top: 15rem;
     
-
 }
 
 .number2 {
@@ -26,7 +24,6 @@
     width: 80px;
     text-align: center;
     
-
 }
 
 .number > div {
@@ -40,10 +37,8 @@
     display: grid;
     grid-template-columns: 1fr 550px;
     grid-gap: 1rem; 
-    /*background-color: #BDB4A5;*/
 
 }
-
 
 .section2 > .text2 {
 
@@ -51,8 +46,6 @@
     width: 570px;
     left: 49rem;
     z-index: 3;
-
-
 
 }
 
@@ -63,7 +56,6 @@
     font-weight: 200;
     margin-bottom: 0;
     margin-top: 0;
-
 
 }
 
@@ -84,18 +76,15 @@
     font-weight: 100;
     color: #BDB4A5;
     text-shadow: 3px 3px 3px #00000036;
+
 }
-
-
 
 .plasseringavbilde2 {
 
     padding-top: 12rem;
 }
 
-
 .bilde2 {
-
 
     background-image: url("bilder/hestenspovirkning.jpg");
     background-position: center;
@@ -121,24 +110,17 @@
   
     }
 
-   
-
-
 }
 
 @media only screen and (max-width: 1300px) {
     
-        .section2 > .text2 {
+    .section2 > .text2 {
       
-            left: 40rem;
+        left: 40rem;
       
-        }
-    
-    
     }
-
-
-
+    
+}
 
 @media only screen and (max-width: 1200px) {
 
@@ -149,10 +131,8 @@
   
     }
 
-
     .bilde2 {
     
-   
         width: 893px;
         left: -173px;
 
@@ -161,12 +141,10 @@
     .section2 > figure {
 
         left: 7rem;
-       
         
     }
 
   }
-
 
   @media only screen and (max-width: 1150px) {
 
@@ -176,8 +154,6 @@
             left: 29rem;
       
         }
-    
-       
     
     }
 
@@ -237,7 +213,7 @@
     .bilde2 {
     
         width: 648px;
-        /*width: 582px;*/
+    
     }
 
     .section2 > figure {
@@ -271,8 +247,6 @@
 
   }
 
-
-
   @media only screen and (max-width: 800px) {
 
     .section2 > .text2 {
@@ -280,7 +254,6 @@
         left: 18rem;
   
     }
-
 
   }
 
@@ -301,20 +274,18 @@
     .bilde2 {
     
         width: 582px;
-        /*width: 482px;*/
+     
     }
 
     .section2 > figure {
 
         left: 5rem;
-       
-        
+         
     }
 
     .section2 > .text2 {
  
         width: 380px;
-    
       
     }
 
@@ -323,7 +294,6 @@
         font-size: 2.8rem;
 
     }
-
 
   }
 
@@ -427,7 +397,6 @@
 
   @media only screen and (max-width: 450px) {
 
- 
 
     .number2 {
 
@@ -450,17 +419,9 @@
     .section2 > figure {
 
         left: 6rem;
-        padding-top: 50rem;
         
     }
 
-    .plasseringavbilde2 {
-
-        padding-top: 35rem;
-        
-    }
-
-
-  }
+}
 
 

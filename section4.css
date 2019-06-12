@@ -4,7 +4,6 @@
 
     padding-top: 15rem;
     
-
 }
 
 .number2 {
@@ -25,7 +24,6 @@
     width: 80px;
     text-align: center;
     
-
 }
 
 .number > div {
@@ -39,10 +37,8 @@
     display: grid;
     grid-template-columns: 1fr 550px;
     grid-gap: 1rem; 
-    /*background-color: #BDB4A5;*/
 
 }
-
 
 .section4 > .text4 {
 
@@ -50,8 +46,6 @@
     width: 570px;
     left: 49rem;
     z-index: 3;
-
-
 
 }
 
@@ -62,7 +56,6 @@
     font-weight: 200;
     margin-bottom: 0;
     margin-top: 0;
-
 
 }
 
@@ -85,16 +78,12 @@
     text-shadow: 3px 3px 3px #00000036;
 }
 
-
-
 .plasseringavbilde4 {
 
     padding-top: 12rem;
 }
 
-
 .bilde4 {
-
 
     background-image: url("bilder/sanser.jpg");
     background-position: center;
@@ -131,10 +120,7 @@
       
     }
     
-    
 }
-
-
 
 
 @media only screen and (max-width: 1200px) {
@@ -203,10 +189,8 @@
       
         }
 
-
     }
   
-
     @media only screen and (max-width: 900px) {
 
         .section4 > .text4 {
@@ -220,11 +204,10 @@
   @media only screen and (max-width: 850px) {
 
 
-
     .bilde4 {
     
         width: 648px;
-        /*width: 582px;*/
+    
     }
 
     .section4 > figure {
@@ -254,9 +237,7 @@
   
     }
 
-
   }
-
 
 
   @media only screen and (max-width: 800px) {
@@ -266,7 +247,6 @@
         left: 18rem;
   
     }
-
 
   }
 
@@ -283,18 +263,16 @@
   @media only screen and (max-width: 700px) {
 
 
-
     .bilde4 {
     
         width: 582px;
-        /*width: 482px;*/
+   
     }
 
     .section4 > figure {
 
         left: 5rem;
        
-        
     }
 
     .section4 > .text4 {
@@ -307,7 +285,6 @@
         font-size: 2.8rem;
 
     }
-
 
   }
 

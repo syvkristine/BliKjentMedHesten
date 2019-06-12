@@ -1,10 +1,8 @@
  
-
 /*section 5*/
 #signaler {
 
     padding-top: 15rem;
-    
 
 }
 
@@ -26,7 +24,6 @@
     width: 80px;
     text-align: center;
     
-
 }
 
 .number > div {
@@ -34,16 +31,13 @@
     height: 10px;
 }
 
-
 .section5 {
 
     display: grid;
     grid-template-columns: 550px 1fr;
     grid-gap: 1rem; 
-    /*background-color: #BDB4A5;*/
 
 }
-
 
 .section5 > .text5 {
 
@@ -51,8 +45,6 @@
     width: 570px;
     left: 4rem;
     z-index: 3;
-
-
 
 }
 
@@ -63,7 +55,6 @@
     font-weight: 200;
     margin-bottom: 0;
     margin-top: 0;
-
 
 }
 
@@ -86,16 +77,12 @@
     text-shadow: 3px 3px 3px #00000036;
 }
 
-
-
 .plasseringavbilde5{
 
     padding-top: 12rem;
 }
 
-
 .bilde5 {
-
 
     background-image: url("bilder/signaler.jpg");
     background-position: center;
@@ -105,7 +92,6 @@
     position: relative;
     left: 500px;
   
-
 }
 
 /*resposiv til section 5*/
@@ -130,14 +116,12 @@
 
     .section5 > figure {
 
-        left: 7rem;
-       
+        left: 7rem; 
         
     }
 
 
 }
-
 
 
 @media only screen and (max-width: 850px) {
@@ -146,7 +130,7 @@
     
         left: 200px;
         width: 648px;
-        /*width: 582px;*/
+       
     }
 
     .section5 > figure {
@@ -182,13 +166,12 @@
     
         left: 100px;
         width: 582px;
-        /*width: 482px;*/
+    
     }
 
     .section5 > figure {
 
         left: 5rem;
-       
         
     }
 
@@ -252,7 +235,6 @@
     }
 
 }
-
 
 
 @media only screen and (max-width: 450px) {

@@ -37,7 +37,6 @@
     display: grid;
     grid-template-columns: 1fr 550px;
     grid-gap: 1rem; 
-    /*background-color: #BDB4A5;*/
 
 }
 
@@ -111,7 +110,6 @@
   
     }
 
-
 }
 
 @media only screen and (max-width: 1300px) {
@@ -121,7 +119,6 @@
         left: 40rem;
       
     }
-    
     
 }
 
@@ -138,7 +135,6 @@
 
     .bilde6 {
     
-   
         width: 893px;
         left: -173px;
 
@@ -147,7 +143,6 @@
     .section6 > figure {
 
         left: 7rem;
-       
         
     }
 
@@ -162,7 +157,6 @@
         left: 29rem;
       
     }
-    
        
     
 }
@@ -176,8 +170,7 @@
       
     }
     
-       
-    
+         
 }
 
 @media only screen and (max-width: 1000px) {
@@ -188,9 +181,7 @@
         left: 20rem;
       
     }
-    
-       
-    
+     
 }
 
 @media only screen and (max-width: 950px) {
@@ -220,7 +211,7 @@
     .bilde6 {
     
         width: 648px;
-        /*width: 582px;*/
+    
     }
 
     .section6 > figure {
@@ -281,7 +272,7 @@
     .bilde6 {
     
         width: 582px;
-        /*width: 482px;*/
+       
     }
 
     .section6 > figure {
@@ -428,9 +419,6 @@
         left: 6rem;
         
     }
-
-    
-
 
 }
 

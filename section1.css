@@ -1,5 +1,4 @@
 
-
 /*section 1*/
 #hestens-historie {
 
@@ -24,8 +23,6 @@
     border-bottom-right-radius: 2px;
     width: 80px;
     text-align: center;
-    
-
 
 }
 
@@ -33,7 +30,6 @@
 
     height: 10px;
 }
-
 
 .section1 {
 
@@ -43,15 +39,12 @@
 
 }
 
-
 .section1 > .text {
 
     position: absolute;
     width: 570px;
     left: 4rem;
     z-index: 3;
-
-
 
 }
 
@@ -62,7 +55,6 @@
     font-weight: 200;
     margin-bottom: 0;
     margin-top: 0;
-
 
 }
 
@@ -85,16 +77,12 @@
     text-shadow: 3px 3px 3px #00000036;
 }
 
-
-
 .plasseringavbilde {
 
     padding-top: 10rem;
 }
 
-
 .bilde1 {
-
 
     background-image: url("bilder/hestensHistorie.jpg");
     background-position: center;
@@ -103,8 +91,6 @@
     width: 1000px;
     position: relative;
     left: 500px;
-
-  
 
 }
 
@@ -138,8 +124,6 @@
 
   }
 
-
-
   @media only screen and (max-width: 850px) {
 
 
@@ -147,7 +131,7 @@
     
         left: 200px;
         width: 648px;
-        /*width: 582px;*/
+        
     }
 
     .section1 > figure {
@@ -185,7 +169,7 @@
     
         left: 100px;
         width: 582px;
-        /*width: 482px;*/
+    
     }
 
     .section1 > figure {
@@ -218,7 +202,6 @@
 
     }
 
-
     .bilde1 {
     
         left: 0px;
@@ -231,7 +214,6 @@
         padding-top: 49rem;
         font-size: 4rem;
        
-        
     }
 
     .section1 > .text {
@@ -268,11 +250,7 @@
         line-height: 23px;
     }
 
-
-
   }
-
-
 
   @media only screen and (max-width: 450px) {
 
@@ -296,11 +274,5 @@
         line-height: 23px;
     }
 
-    .plasseringavbilde {
-
-        padding-top: 30rem;
-    }
-
-
-  }
+}
 

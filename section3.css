@@ -1,11 +1,9 @@
  
-
 /*section 3*/
 #blikjentmedhesten {
 
     padding-top: 15rem;
     
-
 }
 
 .number {
@@ -25,7 +23,6 @@
     border-bottom-right-radius: 2px;
     width: 80px;
     text-align: center;
-    
 
 }
 
@@ -34,16 +31,13 @@
     height: 10px;
 }
 
-
 .section3 {
 
     display: grid;
     grid-template-columns: 550px 1fr;
     grid-gap: 1rem; 
-    /*background-color: #BDB4A5;*/
 
 }
-
 
 .section3 > .text3 {
 
@@ -51,8 +45,6 @@
     width: 570px;
     left: 4rem;
     z-index: 3;
-
-
 
 }
 
@@ -63,7 +55,6 @@
     font-weight: 200;
     margin-bottom: 0;
     margin-top: 0;
-
 
 }
 
@@ -86,16 +77,12 @@
     text-shadow: 3px 3px 3px #00000036;
 }
 
-
-
 .plasseringavbilde3 {
 
     padding-top: 12rem;
 }
 
-
 .bilde3 {
-
 
     background-image: url("bilder/blikjentmedhesten2.jpg");
     background-position: center;
@@ -104,7 +91,6 @@
     width: 1000px;
     position: relative;
     left: 500px;
-  
 
 }
 
@@ -118,10 +104,7 @@
 
 }
 
-
 @media only screen and (max-width: 1200px) {
-
-
 
     .bilde3 {
     
@@ -139,23 +122,19 @@
 
 }
 
-
-
 @media only screen and (max-width: 850px) {
-
 
 
     .bilde3 {
     
         left: 200px;
         width: 648px;
-        /*width: 582px;*/
+    
     }
 
     .section3 > figure {
 
         left: 7rem;
-       
         
     }
 
@@ -178,24 +157,21 @@
       
     }
 
-
 }
 
 @media only screen and (max-width: 700px) {
-
 
 
     .bilde3 {
     
         left: 100px;
         width: 582px;
-        /*width: 482px;*/
+
     }
 
     .section3 > figure {
 
         left: 5rem;
-       
         
     }
 
