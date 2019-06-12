@@ -378,12 +378,14 @@
     .text2 > h3 {
 
         font-size: 2.4rem;
+        text-align: left;
     }
 
     .text2 > p {
 
         font-weight: 300;
         line-height: 23px;
+        text-align: left;
     }
 
     .bilde2 {
@@ -418,7 +420,7 @@
 
     .section2 > figure {
 
-        left: 6rem;
+        left: 4rem;
         
     }
 

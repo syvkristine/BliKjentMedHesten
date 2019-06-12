@@ -367,13 +367,16 @@
     }
 
     .text4 > h3 {
+
         font-size: 2.4rem;
+        text-align: left;
     }
 
     .text4 > p {
 
         font-weight: 300;
         line-height: 23px;
+        text-align: left;
     }
 
     .bilde4 {
@@ -405,7 +408,7 @@
 
     .section4 > figure {
 
-        left: 6rem;
+        left: 4rem;
         
     }
 
