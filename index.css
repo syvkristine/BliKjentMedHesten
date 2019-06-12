@@ -1,6 +1,8 @@
 * {
+
     box-sizing: border-box;
-  }
+
+}
 
 
 html, body {
@@ -23,14 +25,12 @@ header {
     background-image: url("bilder/toppbilde.jpg");
     background-position: center;
     background-size: cover;
-   /* background-attachment: fixed;*/
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
     display: grid;
     grid-template-columns: 1fr 70px;
 
-    
 }
 
 .intro {
@@ -87,7 +87,6 @@ header {
  
 }
 
-
 .fixed-position > a:hover {
 
     color: #5A403F;
@@ -99,7 +98,7 @@ header {
 
 main {
 
-    font-family: 'Nunito', sans-serif;  /*dette er istedefor avenir nextr*/
+    font-family: 'Nunito', sans-serif; 
     color: #5A403F;
 } 
 
@@ -168,13 +167,5 @@ main {
         font-size: 2.9rem;
        
     }
-
-    header {
-
-        grid-template-columns: 1fr 30px;
-    
-        
-    }
-
 
 }
