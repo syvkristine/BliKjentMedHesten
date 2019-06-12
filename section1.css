@@ -241,6 +241,7 @@
 
 
     #hestens-historie {
+
         padding-top: 2rem;
     }
 
@@ -272,6 +273,11 @@
 
         font-weight: 300;
         line-height: 23px;
+    }
+
+    .plasseringavbilde {
+
+        padding-top: 30rem;
     }
 
 }
